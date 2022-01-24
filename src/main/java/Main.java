@@ -32,6 +32,9 @@ public class Main {
         System.out.println(line.getName());
         System.out.println(line.сhangeSize(5));
 
+        ShapesPrint shapePrinter = new ShapesPrint();
+        Shapes shapes = new Quad(p3, p4);
 
+        System.out.println(shapePrinter.print(shapes));
     }
 }
